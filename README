@@ -1,0 +1,15 @@
+jpa xstream dump was invented to convert 
+live data from one JPA data source to another 
+using a combination of late model xstream 
+hibernate fixes and introspection driven 
+model details.
+
+integrate Dump.java into your project and 
+supply a hibernate/jpa Entitymanager (only 
+tested flavor)
+
+when main is run it will dump the data to 
+stdout per the persistence.xml file which 
+is parsed independantly from the JPA backend 
+parser.
+
